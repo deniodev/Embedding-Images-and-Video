@@ -1,0 +1,90 @@
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 7rem;
+
+}
+
+body{
+    background: #eee;
+}
+
+.header{
+    position: fixed;
+    top:0; left: 0; right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 9%;
+    background: #fff;
+    box-shadow: var(--box-shadow);
+}
+
+.header .navbar a{
+    font-size: 1.7rem;
+    margin: 0 1rem;
+    color:var(--black);
+  
+ }
+
+ .home{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: ;
+    background-position: center;
+    background-size: cover;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+
+}
+
+.home .content{
+    text-align: center;
+    width: 60rem;
+}
+
+.home .content h3{
+    color: var(--black);
+    font-size: 3rem;
+}
+
+.home .content p{
+    color: var(--black);
+    font-size: 1.7rem;
+    padding: 1rem 0;
+    line-height: 1.8;
+}
+
+.workouts {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    padding-top: 3rem;
+    padding-bottom: 10rem;
+}
+
+.workouts h3{
+    color: var(--black);
+    font-size: 3rem;
+}
+
+.workouts p{
+    color: var(--black);
+    font-size: 1.7rem;
+    padding: 1rem 0;
+    line-height: 1.8;
+}
+
+iframe{      
+    display: block; 
+    align-items: center; 
+    justify-content: center;
+    height: 80vh; 
+    width: 80vw;      
+    border: none; 
+    background: lightyellow; 
+}
